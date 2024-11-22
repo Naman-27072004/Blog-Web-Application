@@ -1,0 +1,12 @@
+<!-- views/new-post.ejs -->
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="/css/styles.css">
+
+<form action="/posts" method="POST">
+    <div class="new">
+        <input type="text" name="title" placeholder="Title" width="50" required>
+        <textarea name="content" placeholder="Content" required></textarea>
+        <button type="submit">Create Post</button>
+    </div>
+</form>
+<%- include("partials/footer.ejs") %>

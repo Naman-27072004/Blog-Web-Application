@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 2em;
+}
+h1, h2 {
+    color: #333;
+}
+form {
+    margin: 2em 0;
+}
+input, textarea {
+    width: 100%;
+    padding: 1em;
+    margin: 0.5em 0;
+}
+button {
+    padding: 1em 2em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.new{
+    margin: 10px;
+    padding: 10px;
+}
+
+.new > input,textarea{
+    outline: none;
+    border: none;
+}
+
+.edit{
+    margin: 10px;
+    padding: 10px;
+}
+
+.edit > input,textarea{
+    outline: none;
+    border: none;
+}
+
+.index{
+    margin: 10px;
+    padding: 10px;
+}
